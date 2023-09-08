@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PumpJam.WebApp.props" />
+</Project>

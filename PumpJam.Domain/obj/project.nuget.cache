@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0WyHa36Smr7q3e4Hwl1IKXHbpFLDllReFMNlfHn9AtDrfiAI/Y+5mHIuldtWltX7vRX/XuVcYpdGAsL2siS3Fw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.Domain\\PumpJam.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Вадим\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\Вадим\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

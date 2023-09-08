@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\PumpJam.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PumpJam.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\172de61f-b72b-4436-932d-e8a994f533b0.csv",
+      "PackagePath": "staticwebassets\\172de61f-b72b-4436-932d-e8a994f533b0.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\17f04454-a113-4af8-a2e1-18c270bacca2.csv",
+      "PackagePath": "staticwebassets\\17f04454-a113-4af8-a2e1-18c270bacca2.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\2590dbdb-a562-46b0-9c30-dffce3208f66.csv",
+      "PackagePath": "staticwebassets\\2590dbdb-a562-46b0-9c30-dffce3208f66.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\2d3e7192-7677-425a-9a6a-6773117eb5e6.csv",
+      "PackagePath": "staticwebassets\\2d3e7192-7677-425a-9a6a-6773117eb5e6.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\33c3b829-7ed9-4f54-99f1-401a4d59d12e.csv",
+      "PackagePath": "staticwebassets\\33c3b829-7ed9-4f54-99f1-401a4d59d12e.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\5602e2a8-6b8a-435d-9f9a-afa572b52999.csv",
+      "PackagePath": "staticwebassets\\5602e2a8-6b8a-435d-9f9a-afa572b52999.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\583b8f13-631e-47f3-ac8c-aa55cf19fd69.csv",
+      "PackagePath": "staticwebassets\\583b8f13-631e-47f3-ac8c-aa55cf19fd69.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\5b32c44a-3ee1-41d8-80df-711132ffe63f.csv",
+      "PackagePath": "staticwebassets\\5b32c44a-3ee1-41d8-80df-711132ffe63f.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\640f33bc-77e6-4344-a105-312ab8f0b83d.csv",
+      "PackagePath": "staticwebassets\\640f33bc-77e6-4344-a105-312ab8f0b83d.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\7d8e2752-d6df-4bb2-a266-2d642fbba066.csv",
+      "PackagePath": "staticwebassets\\7d8e2752-d6df-4bb2-a266-2d642fbba066.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\8b6d2e8d-d2d0-4f4d-b9f0-f00c2c5042ee.csv",
+      "PackagePath": "staticwebassets\\8b6d2e8d-d2d0-4f4d-b9f0-f00c2c5042ee.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\8bd387ae-230c-4ad5-a702-817381ece946.csv",
+      "PackagePath": "staticwebassets\\8bd387ae-230c-4ad5-a702-817381ece946.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\92f2be1d-8953-4643-aa78-ee4e8de5e129.csv",
+      "PackagePath": "staticwebassets\\92f2be1d-8953-4643-aa78-ee4e8de5e129.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\9ad98b6f-21b5-44c7-bde6-788f60c76b36.csv",
+      "PackagePath": "staticwebassets\\9ad98b6f-21b5-44c7-bde6-788f60c76b36.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\a5382a0e-12be-4464-bd1a-037e7ad6b39c.csv",
+      "PackagePath": "staticwebassets\\a5382a0e-12be-4464-bd1a-037e7ad6b39c.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\a635bd4f-e24f-4758-97cb-93649f978d8d.csv",
+      "PackagePath": "staticwebassets\\a635bd4f-e24f-4758-97cb-93649f978d8d.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\a72073a4-853e-44a4-b9b9-acd2da6ef516.csv",
+      "PackagePath": "staticwebassets\\a72073a4-853e-44a4-b9b9-acd2da6ef516.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\ace8ea84-4a2f-4fab-98a3-a2e4e8b5ac1b.csv",
+      "PackagePath": "staticwebassets\\ace8ea84-4a2f-4fab-98a3-a2e4e8b5ac1b.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\ca24a9ae-66e0-4160-bce4-76d9860218ce.csv",
+      "PackagePath": "staticwebassets\\ca24a9ae-66e0-4160-bce4-76d9860218ce.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\d05a7e25-c53c-4f29-96ff-6747dcb79e6f.csv",
+      "PackagePath": "staticwebassets\\d05a7e25-c53c-4f29-96ff-6747dcb79e6f.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\d404064c-2087-43ab-9000-c9942893aa91.csv",
+      "PackagePath": "staticwebassets\\d404064c-2087-43ab-9000-c9942893aa91.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\ea4b4d7e-c42c-4c74-884f-4e5190a89cdc.csv",
+      "PackagePath": "staticwebassets\\ea4b4d7e-c42c-4c74-884f-4e5190a89cdc.csv"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\it-7\\Desktop\\PumpJam\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.PumpJam.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.PumpJam.props",
+      "PackagePath": "build\\PumpJam.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PumpJam.props",
+      "PackagePath": "buildMultiTargeting\\PumpJam.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.PumpJam.props",
+      "PackagePath": "buildTransitive\\PumpJam.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

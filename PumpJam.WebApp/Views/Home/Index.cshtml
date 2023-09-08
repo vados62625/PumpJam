@@ -1,0 +1,34 @@
+﻿@model List<Domain.Models.Category>
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<div class="text-center">
+    <h1 class="display-5 mb-3">Главная</h1>
+    <form asp-action="LoadCategories" asp-controller="Home" enctype="multipart/form-data">
+        <div class="input-group">
+            <input class="form-control" type="file" accept=".csv" name="categories" id="categories" />
+            <input type="submit" value="Загрузить" class="btn btn-outline-dark" />
+        </div>
+    </form>
+    <a asp-action="CurrentRace" asp-controller="Home">Текущий заезд</a><br />
+    <a asp-action="CurrentRacer" asp-controller="Home">Текущий участник</a>
+</div>
+<div class="mb-3">Группы:</div>
+<div>
+    @foreach (var category in Model)
+    {
+        <div class="mb-2 row">@category.Name 
+            @if (!category.Next)
+            {
+                <form asp-controller="Home" asp-action="SetNext" asp-route-category="@category.Id">
+                    <button id="setNext" type="submit" class="ms-2 btn btn-outline-success">Идут следующими</button>
+                </form>
+            }
+            else
+            {
+                <button class="btn btn-warning" disabled>Следующие</button>
+            }
+        </div>
+    }
+</div>
