@@ -28,14 +28,9 @@ namespace PumpJam.Controllers
         }
 
         [HttpGet("")]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var model = new List<Category>();
-            using (var context = _serviceProvider.GetRequiredService<RacersContext>())
-            {
-                var categoriesDB = context.Categories;
-                model = categoriesDB.ToList();
-            }
+            var model = await _racersService.GetCategoryList();
             return View(model);
         }
         [HttpGet("currentRace")]
@@ -50,13 +45,21 @@ namespace PumpJam.Controllers
             {
                 var racerList = await _racersService.GetCurrentQueue();
                 string text = "";
-                return Json(racerList.Aggregate(text, (str, racer) => str += $"{racer.Bib}\n"));
+                return Json(racerList);
+                // return Json(racerList.Aggregate(text, (str, racer) => str += $"{racer.Bib}\n"));
             }
             catch
             {
                 return Json(0);
             }
         }
+        
+        [HttpGet("currentRacersQueueView")]
+        public async Task<IActionResult> RacersQueueView()
+        {
+            return View();
+        }
+        
         [HttpPost("setNext")]
         public async Task<IActionResult> SetNext([FromQuery] int category)
         {
@@ -110,13 +113,6 @@ namespace PumpJam.Controllers
                 using (var csv = new CsvReader(reader, csvConfig))
                 {
                     var result = csv.GetRecords<CategoryCSV>();
-
-                    //CsvParserOptions csvParserOptions = new CsvParserOptions(true, ';');
-                    //CsvCategoryDetailsMapping csvMapper = new CsvCategoryDetailsMapping();
-                    //CsvParser<CategoryCSV> csvParser = new CsvParser<CategoryCSV>(csvParserOptions, csvMapper);
-                    //var result = csvParser
-                    //             .ReadFromStream(filePath, Encoding.ASCII)
-                    //             .ToList();
                     using (var context = _serviceProvider.GetRequiredService<RacersContext>())
                     {
                         var categoriesDB = context.Categories;
@@ -164,7 +160,7 @@ namespace PumpJam.Controllers
             try
             {
                 var racer = await _racersService.GetCurrentRacerData();
-                return Json(new List<RacerModel> { racer });
+                return Json(new List<RacerDto> { racer });
             }
             catch
             {

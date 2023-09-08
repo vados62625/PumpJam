@@ -2,7 +2,7 @@
 
 namespace Domain.ViewModels
 {
-    public class RacerModel
+    public class RacerDto
     {
         [JsonProperty("Contest")]
         public string Contest { get; set; }

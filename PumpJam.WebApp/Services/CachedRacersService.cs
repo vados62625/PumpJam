@@ -17,22 +17,22 @@ namespace PumpJam.Services
             _racersService = racersService;
             _cache = cache;
         }
-        public Task<List<RacerModel>?> GetCurrentRace()
+        public Task<List<RacerDto>?> GetCurrentRace()
         {
             return _cache.Remember($"{KeyPrefix}:list", async () => await _racersService.GetCurrentRace());
         }
 
-        public Task<RacerModel?> GetCurrentRacerData()
+        public Task<RacerDto?> GetCurrentRacerData()
         {
             return _cache.Remember($"{KeyPrefix}:current", async () => await _racersService.GetCurrentRacerData());            
         }
 
-        public Task<List<Category>?> GetCategoryList()
+        public Task<List<Category>> GetCategoryList()
         {
             return _cache.Remember($"{KeyPrefix}:categories", async () => await _racersService.GetCategoryList());                        
         }
 
-        public Task<List<RacerModel>?> GetCurrentQueue()
+        public Task<List<RacerDto>?> GetCurrentQueue()
         {
             return _cache.Remember($"{KeyPrefix}:queue", async () => await _racersService.GetCurrentQueue());                        
         }

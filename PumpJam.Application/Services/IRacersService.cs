@@ -5,9 +5,9 @@ namespace PumpJam.Application.Services
 {
     public interface IRacersService
     {
-        public Task<List<RacerModel>?> GetCurrentRace();
-        public Task<List<RacerModel>?> GetCurrentQueue();
-        public Task<RacerModel?> GetCurrentRacerData();
-        public Task<List<Category>?> GetCategoryList();
+        public Task<List<RacerDto>?> GetCurrentRace();
+        public Task<List<RacerDto>?> GetCurrentQueue();
+        public Task<RacerDto?> GetCurrentRacerData();
+        public Task<List<Category>> GetCategoryList();
     }
 }

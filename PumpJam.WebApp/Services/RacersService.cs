@@ -26,9 +26,10 @@ namespace PumpJam.Services
             _context = context;
             _racersRepository = racersRepository;
         }
-        public async Task<List<RacerModel>?> GetCurrentRace()
+        public async Task<List<RacerDto>?> GetCurrentRace()
         {
-            var racersData = await GetRacersDataAsync();
+            //TODO поменять json на апи
+            var racersData = await GetRacersDataFromJsonAsync();
             if (racersData != null)
             {
                 var racersList = JsonConvert.DeserializeObject<List<Racer>>(racersData);
@@ -55,7 +56,7 @@ namespace PumpJam.Services
             using var file = new StreamReader(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "racist.json"));
             return await file.ReadToEndAsync();
         }
-        private List<RacerModel>? GetCurrentRaceData(List<Racer> racers)
+        private List<RacerDto>? GetCurrentRaceData(List<Racer> racers)
         {
             var races = racers.GroupBy(c => c.Contest).ToDictionary(g => g.Key, g => g.ToList()); ;
             var currentRaceContest = racers.OrderByDescending(c => c.LAST).FirstOrDefault()?.Contest;
@@ -123,7 +124,7 @@ namespace PumpJam.Services
                         currentRacers.AddRange(emptyRank);
                     }
 
-                    return currentRacers?.Take(racersCount).Select(c => new RacerModel
+                    return currentRacers?.Take(racersCount).Select(c => new RacerDto
                     {
                         RaceNum = raceNumber,
                         Bib = c.Bib,
@@ -145,7 +146,7 @@ namespace PumpJam.Services
                         Race2T = c.Race2t ?? "--",
                     }).ToList();
                 }
-                return currentRacers?.Take(racersCount).Select(c => new RacerModel
+                return currentRacers?.Take(racersCount).Select(c => new RacerDto
                 {
                     RaceNum = raceNumber,
                     Bib = c.Bib,
@@ -164,7 +165,7 @@ namespace PumpJam.Services
             }
             return null;
         }
-        private async Task<List<RacerModel>?> GetCurrentRaceData(List<Racer> racers, Category currentRaceContest)
+        private async Task<List<RacerDto>?> GetCurrentRaceData(List<Racer> racers, Category currentRaceContest)
         {
             var races = racers.GroupBy(c => c.Contest).ToDictionary(g => g.Key, g => g.ToList());
             if (currentRaceContest != null)
@@ -222,7 +223,7 @@ namespace PumpJam.Services
                         currentRacers = currentRacers.Where(c => !double.TryParse(c.H1t, out var value)).ToList();
                     }
 
-                    var res = currentRacers?.Select(c => new RacerModel
+                    var res = currentRacers?.Select(c => new RacerDto
                     {
                         RaceNum = raceNumber,
                         Bib = c.Bib,
@@ -264,7 +265,7 @@ namespace PumpJam.Services
                     //}
                     return res.ToList();
                 }
-                return currentRacers?.Select(c => new RacerModel
+                return currentRacers?.Select(c => new RacerDto
                 {
                     RaceNum = raceNumber,
                     Bib = c.Bib,
@@ -286,7 +287,7 @@ namespace PumpJam.Services
             }
             return null;
         }
-        private RacerModel? GetCurrentRacerData(List<Racer> racers)
+        private RacerDto? GetCurrentRacerData(List<Racer> racers)
         {
             var races = racers.GroupBy(c => c.Contest).ToDictionary(g => g.Key, g => g.ToList());
             var currentRacer = racers.OrderByDescending(c => c.LAST).FirstOrDefault();
@@ -312,7 +313,7 @@ namespace PumpJam.Services
                 else if (currentRacers.FirstOrDefault(c => !string.IsNullOrEmpty(c.H2t) && c.H2t != "-") != null) raceNumber = 2;
                 if (raceNumber < 3)
                 {
-                    return new RacerModel
+                    return new RacerDto
                     {
                         RaceNum = raceNumber,
                         Bib = currentRacer.Bib,
@@ -334,7 +335,7 @@ namespace PumpJam.Services
                         Race2T = currentRacer.Race2t ?? "--",
                     };
                 }
-                return new RacerModel
+                return new RacerDto
                 {
                     RaceNum = raceNumber,
                     Bib = currentRacer.Bib,
@@ -354,7 +355,7 @@ namespace PumpJam.Services
             return null;
         }
 
-        public async Task<RacerModel?> GetCurrentRacerData()
+        public async Task<RacerDto?> GetCurrentRacerData()
         {
             var racersData = await GetRacersDataAsync();
             if (racersData != null)
@@ -369,14 +370,14 @@ namespace PumpJam.Services
             return null;
         }
 
-        public Task<List<Category>?> GetCategoryList()
+        public Task<List<Category>> GetCategoryList()
         {
             return _context.Set<Category>().ToListAsync();
         }
 
-        public async Task<List<RacerModel>?> GetCurrentQueue()
+        public async Task<List<RacerDto>?> GetCurrentQueue()
         {
-            var racersData = await GetRacersDataAsync();
+            var racersData = await GetRacersDataFromJsonAsync();
             if (racersData != null)
             {
                 var racersList = JsonConvert.DeserializeObject<List<Racer>>(racersData);
