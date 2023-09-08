@@ -93,19 +93,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Вадим\\.nuget\\packages\\": {}
+    "C:\\Users\\vados\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.Domain\\PumpJam.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.Domain\\PumpJam.Domain.csproj",
       "projectName": "PumpJam.Domain",
-      "projectPath": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.Domain\\PumpJam.Domain.csproj",
-      "packagesPath": "C:\\Users\\Вадим\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.Domain\\obj\\",
+      "projectPath": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.Domain\\PumpJam.Domain.csproj",
+      "packagesPath": "C:\\Users\\vados\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Вадим\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vados\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -113,9 +118,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.pkg.jetbrains.space/gpna/p/gpna-common/common/v3/index.json": {},
-        "https://nuget.pkg.jetbrains.space/gpna/p/gpna-common/gpnacommon/v3/index.json": {},
         "https://nuget.pkg.jetbrains.space/gpna/p/gpna-oilproduction/oil-production-common/v3/index.json": {}
       },
       "frameworks": {
@@ -159,7 +163,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

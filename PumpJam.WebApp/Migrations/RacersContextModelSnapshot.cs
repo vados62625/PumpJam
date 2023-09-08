@@ -25,7 +25,7 @@ namespace PumpJam.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("PumpJam.WebApp.DB.Models.Category", b =>
+            modelBuilder.Entity("Domain.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -39,6 +39,9 @@ namespace PumpJam.Migrations
 
                     b.Property<bool>("Next")
                         .HasColumnType("bit");
+
+                    b.Property<DateTime>("NextDateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("Race3")
                         .HasColumnType("int");
@@ -54,7 +57,7 @@ namespace PumpJam.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("PumpJam.WebApp.DB.Models.RacerDB", b =>
+            modelBuilder.Entity("Domain.Models.RacerDB", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -79,16 +82,16 @@ namespace PumpJam.Migrations
                     b.ToTable("Racers");
                 });
 
-            modelBuilder.Entity("PumpJam.WebApp.DB.Models.RacerDB", b =>
+            modelBuilder.Entity("Domain.Models.RacerDB", b =>
                 {
-                    b.HasOne("PumpJam.WebApp.DB.Models.Category", "Category")
+                    b.HasOne("Domain.Models.Category", "Category")
                         .WithMany("Racers")
                         .HasForeignKey("CategoryId");
 
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("PumpJam.WebApp.DB.Models.Category", b =>
+            modelBuilder.Entity("Domain.Models.Category", b =>
                 {
                     b.Navigation("Racers");
                 });

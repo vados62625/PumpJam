@@ -59,7 +59,18 @@ namespace PumpJam.Services
         private List<RacerDto>? GetCurrentRaceData(List<Racer> racers)
         {
             var races = racers.GroupBy(c => c.Contest).ToDictionary(g => g.Key, g => g.ToList()); ;
-            var currentRaceContest = racers.OrderByDescending(c => c.LAST).FirstOrDefault()?.Contest;
+            
+            var currentRacer = racers.MaxBy(c => c.LAST);
+            var currentRacerLastSeconds = currentRacer?.LAST ?? 0;
+            var currentRacerLast = TimeSpan.FromSeconds(currentRacerLastSeconds);
+            
+            var selectedContest = _context.Categories.FirstOrDefault(c => c.Next);
+            
+            var currentRaceContest = currentRacer?.Contest;
+            if (selectedContest != null && selectedContest.NextDateTime.TimeOfDay > currentRacerLast)
+            {
+                currentRaceContest = selectedContest.Name;
+            }
             if (currentRaceContest != null)
             {
                 var raceNumber = 1;
@@ -281,7 +292,8 @@ namespace PumpJam.Services
                     Rank = (c?.GetType()?.GetProperty($"Race{raceNumber-1}r")?.GetValue(c, null)?.ToString()) ?? "--",
                     RaceT = c?.GetType()?.GetProperty($"Race{raceNumber}t")?.GetValue(c, null)?.ToString() ?? "--",
                     //}).Where(c => c.Ht != "--" && !string.IsNullOrEmpty(c.Ht))
-                }).OrderByDescending(c => c.Rank)
+                }).OrderBy(c => c.Id)
+                // }).OrderByDescending(c => c.Rank)
                 .Take(racersCount)
                 .ToList();
             }

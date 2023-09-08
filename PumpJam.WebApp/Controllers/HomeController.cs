@@ -44,7 +44,6 @@ namespace PumpJam.Controllers
             try
             {
                 var racerList = await _racersService.GetCurrentQueue();
-                string text = "";
                 return Json(racerList);
                 // return Json(racerList.Aggregate(text, (str, racer) => str += $"{racer.Bib}\n"));
             }
@@ -69,6 +68,7 @@ namespace PumpJam.Controllers
                 foreach (var categoryDB in categoriesDB)
                 {
                     categoryDB.Next = categoryDB.Id == category;
+                    categoryDB.NextDateTime = DateTime.Now;
                 }                
                 await context.SaveChangesAsync();
             }
@@ -178,16 +178,5 @@ namespace PumpJam.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        //private class CsvCategoryDetailsMapping : CsvMapping<CategoryCSV>
-        //{
-        //    public CsvCategoryDetailsMapping()
-        //        : base()
-        //    {
-        //        MapProperty(0, x => x.Category);
-        //        MapProperty(1, x => x.Race3);
-        //        MapProperty(2, x => x.Race4);
-        //        MapProperty(3, x => x.Race5);
-        //    }
-        //}
     }
 }

@@ -13,3 +13,18 @@ C:\Users\Вадим\Downloads\Telegram Desktop\PumpJam\PumpJam.Application\obj\D
 C:\Users\Вадим\Downloads\Telegram Desktop\PumpJam\PumpJam.Application\obj\Debug\net7.0\refint\PumpJam.Application.dll
 C:\Users\Вадим\Downloads\Telegram Desktop\PumpJam\PumpJam.Application\obj\Debug\net7.0\PumpJam.Application.pdb
 C:\Users\Вадим\Downloads\Telegram Desktop\PumpJam\PumpJam.Application\obj\Debug\net7.0\ref\PumpJam.Application.dll
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\bin\Debug\net7.0\PumpJam.Application.deps.json
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\bin\Debug\net7.0\PumpJam.Application.dll
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\bin\Debug\net7.0\PumpJam.Application.pdb
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\bin\Debug\net7.0\PumpJam.Domain.dll
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\bin\Debug\net7.0\PumpJam.Domain.pdb
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\obj\Debug\net7.0\PumpJam.Application.csproj.AssemblyReference.cache
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\obj\Debug\net7.0\PumpJam.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\obj\Debug\net7.0\PumpJam.Application.AssemblyInfoInputs.cache
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\obj\Debug\net7.0\PumpJam.Application.AssemblyInfo.cs
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\obj\Debug\net7.0\PumpJam.Application.csproj.CoreCompileInputs.cache
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\obj\Debug\net7.0\PumpJam.Application.csproj.CopyComplete
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\obj\Debug\net7.0\PumpJam.Application.dll
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\obj\Debug\net7.0\refint\PumpJam.Application.dll
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\obj\Debug\net7.0\PumpJam.Application.pdb
+C:\Users\vados\RiderProjects\PumpJam\PumpJam.Application\obj\Debug\net7.0\ref\PumpJam.Application.dll

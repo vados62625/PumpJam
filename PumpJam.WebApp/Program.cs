@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using PumpJam.Application.DbContext;
 using PumpJam.Application.Services;
 using PumpJam.DB;
@@ -20,6 +21,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddMemoryCache();
 
 builder.Services.AddDbContext<IRacersContext, RacersContext>(ConfigureUserContextConnection);
+
+builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 void ConfigureUserContextConnection(DbContextOptionsBuilder options)
 {

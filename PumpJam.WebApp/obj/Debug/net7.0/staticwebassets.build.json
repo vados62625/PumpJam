@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VWRHNTCvoZYAOHcTaVAQe45nlT6GEABXI5Y42nztxwY=",
+  "Hash": "+9q300d9Rg80bYV5uaaKbWzUaCs8x3K8+oXjG/voYS8=",
   "Source": "PumpJam.WebApp",
   "BasePath": "_content/PumpJam.WebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PumpJam.WebApp\\wwwroot",
       "Source": "PumpJam.WebApp",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PumpJam.WebApp.styles.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PumpJam.WebApp.styles.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "PumpJam.WebApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PumpJam.WebApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\PumpJam.WebApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PumpJam.WebApp.bundle.scp.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PumpJam.WebApp.bundle.scp.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "PumpJam.WebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PumpJam.WebApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PumpJam.WebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\172de61f-b72b-4436-932d-e8a994f533b0.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\172de61f-b72b-4436-932d-e8a994f533b0.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "172de61f-b72b-4436-932d-e8a994f533b0.csv",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\172de61f-b72b-4436-932d-e8a994f533b0.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\17f04454-a113-4af8-a2e1-18c270bacca2.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\17f04454-a113-4af8-a2e1-18c270bacca2.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "17f04454-a113-4af8-a2e1-18c270bacca2.csv",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\17f04454-a113-4af8-a2e1-18c270bacca2.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\2590dbdb-a562-46b0-9c30-dffce3208f66.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\2590dbdb-a562-46b0-9c30-dffce3208f66.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "2590dbdb-a562-46b0-9c30-dffce3208f66.csv",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\2590dbdb-a562-46b0-9c30-dffce3208f66.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\2d3e7192-7677-425a-9a6a-6773117eb5e6.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\2d3e7192-7677-425a-9a6a-6773117eb5e6.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "2d3e7192-7677-425a-9a6a-6773117eb5e6.csv",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\2d3e7192-7677-425a-9a6a-6773117eb5e6.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\33c3b829-7ed9-4f54-99f1-401a4d59d12e.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\33c3b829-7ed9-4f54-99f1-401a4d59d12e.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "33c3b829-7ed9-4f54-99f1-401a4d59d12e.csv",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\33c3b829-7ed9-4f54-99f1-401a4d59d12e.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\5602e2a8-6b8a-435d-9f9a-afa572b52999.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\5602e2a8-6b8a-435d-9f9a-afa572b52999.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "5602e2a8-6b8a-435d-9f9a-afa572b52999.csv",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\5602e2a8-6b8a-435d-9f9a-afa572b52999.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\583b8f13-631e-47f3-ac8c-aa55cf19fd69.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\583b8f13-631e-47f3-ac8c-aa55cf19fd69.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "583b8f13-631e-47f3-ac8c-aa55cf19fd69.csv",
       "AssetKind": "All",
@@ -170,27 +170,10 @@
       "OriginalItemSpec": "wwwroot\\583b8f13-631e-47f3-ac8c-aa55cf19fd69.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\5b219cc4-c2f2-4908-a3f6-a668822f9928.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\5b32c44a-3ee1-41d8-80df-711132ffe63f.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
-      "BasePath": "_content/PumpJam.WebApp",
-      "RelativePath": "5b219cc4-c2f2-4908-a3f6-a668822f9928.csv",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\5b219cc4-c2f2-4908-a3f6-a668822f9928.csv"
-    },
-    {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\5b32c44a-3ee1-41d8-80df-711132ffe63f.csv",
-      "SourceId": "PumpJam.WebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "5b32c44a-3ee1-41d8-80df-711132ffe63f.csv",
       "AssetKind": "All",
@@ -204,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\5b32c44a-3ee1-41d8-80df-711132ffe63f.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\640f33bc-77e6-4344-a105-312ab8f0b83d.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\640f33bc-77e6-4344-a105-312ab8f0b83d.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "640f33bc-77e6-4344-a105-312ab8f0b83d.csv",
       "AssetKind": "All",
@@ -221,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\640f33bc-77e6-4344-a105-312ab8f0b83d.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\7d8e2752-d6df-4bb2-a266-2d642fbba066.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\7d8e2752-d6df-4bb2-a266-2d642fbba066.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "7d8e2752-d6df-4bb2-a266-2d642fbba066.csv",
       "AssetKind": "All",
@@ -238,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\7d8e2752-d6df-4bb2-a266-2d642fbba066.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\8b6d2e8d-d2d0-4f4d-b9f0-f00c2c5042ee.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\8b6d2e8d-d2d0-4f4d-b9f0-f00c2c5042ee.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "8b6d2e8d-d2d0-4f4d-b9f0-f00c2c5042ee.csv",
       "AssetKind": "All",
@@ -255,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\8b6d2e8d-d2d0-4f4d-b9f0-f00c2c5042ee.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\8bd387ae-230c-4ad5-a702-817381ece946.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\8bd387ae-230c-4ad5-a702-817381ece946.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "8bd387ae-230c-4ad5-a702-817381ece946.csv",
       "AssetKind": "All",
@@ -272,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\8bd387ae-230c-4ad5-a702-817381ece946.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\92f2be1d-8953-4643-aa78-ee4e8de5e129.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\92f2be1d-8953-4643-aa78-ee4e8de5e129.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "92f2be1d-8953-4643-aa78-ee4e8de5e129.csv",
       "AssetKind": "All",
@@ -289,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\92f2be1d-8953-4643-aa78-ee4e8de5e129.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\9ad98b6f-21b5-44c7-bde6-788f60c76b36.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\9ad98b6f-21b5-44c7-bde6-788f60c76b36.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "9ad98b6f-21b5-44c7-bde6-788f60c76b36.csv",
       "AssetKind": "All",
@@ -306,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\9ad98b6f-21b5-44c7-bde6-788f60c76b36.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\a5382a0e-12be-4464-bd1a-037e7ad6b39c.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\a5382a0e-12be-4464-bd1a-037e7ad6b39c.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "a5382a0e-12be-4464-bd1a-037e7ad6b39c.csv",
       "AssetKind": "All",
@@ -323,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\a5382a0e-12be-4464-bd1a-037e7ad6b39c.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\a635bd4f-e24f-4758-97cb-93649f978d8d.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\a635bd4f-e24f-4758-97cb-93649f978d8d.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "a635bd4f-e24f-4758-97cb-93649f978d8d.csv",
       "AssetKind": "All",
@@ -340,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\a635bd4f-e24f-4758-97cb-93649f978d8d.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\a72073a4-853e-44a4-b9b9-acd2da6ef516.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\a72073a4-853e-44a4-b9b9-acd2da6ef516.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "a72073a4-853e-44a4-b9b9-acd2da6ef516.csv",
       "AssetKind": "All",
@@ -357,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\a72073a4-853e-44a4-b9b9-acd2da6ef516.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\ace8ea84-4a2f-4fab-98a3-a2e4e8b5ac1b.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\ace8ea84-4a2f-4fab-98a3-a2e4e8b5ac1b.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "ace8ea84-4a2f-4fab-98a3-a2e4e8b5ac1b.csv",
       "AssetKind": "All",
@@ -374,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\ace8ea84-4a2f-4fab-98a3-a2e4e8b5ac1b.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\ca24a9ae-66e0-4160-bce4-76d9860218ce.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\ca24a9ae-66e0-4160-bce4-76d9860218ce.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "ca24a9ae-66e0-4160-bce4-76d9860218ce.csv",
       "AssetKind": "All",
@@ -391,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\ca24a9ae-66e0-4160-bce4-76d9860218ce.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\css\\site.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -408,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\d05a7e25-c53c-4f29-96ff-6747dcb79e6f.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\d05a7e25-c53c-4f29-96ff-6747dcb79e6f.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "d05a7e25-c53c-4f29-96ff-6747dcb79e6f.csv",
       "AssetKind": "All",
@@ -425,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\d05a7e25-c53c-4f29-96ff-6747dcb79e6f.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\d404064c-2087-43ab-9000-c9942893aa91.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\d404064c-2087-43ab-9000-c9942893aa91.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "d404064c-2087-43ab-9000-c9942893aa91.csv",
       "AssetKind": "All",
@@ -442,12 +425,12 @@
       "OriginalItemSpec": "wwwroot\\d404064c-2087-43ab-9000-c9942893aa91.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\dda021b1-c369-400f-b019-d3b95b87a638.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\da7e315b-48f8-499f-b2c9-dda49b1e0fb7.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
-      "RelativePath": "dda021b1-c369-400f-b019-d3b95b87a638.csv",
+      "RelativePath": "da7e315b-48f8-499f-b2c9-dda49b1e0fb7.csv",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -456,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\dda021b1-c369-400f-b019-d3b95b87a638.csv"
+      "OriginalItemSpec": "wwwroot\\da7e315b-48f8-499f-b2c9-dda49b1e0fb7.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\ea4b4d7e-c42c-4c74-884f-4e5190a89cdc.csv",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\ea4b4d7e-c42c-4c74-884f-4e5190a89cdc.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "ea4b4d7e-c42c-4c74-884f-4e5190a89cdc.csv",
       "AssetKind": "All",
@@ -476,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\ea4b4d7e-c42c-4c74-884f-4e5190a89cdc.csv"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\favicon.ico",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -493,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\js\\current-queue.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\js\\current-queue.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "js/current-queue.js",
       "AssetKind": "All",
@@ -510,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\js\\current-queue.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\js\\current-race.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\js\\current-race.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "js/current-race.js",
       "AssetKind": "All",
@@ -527,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\js\\current-race.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\js\\current-racer.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\js\\current-racer.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "js/current-racer.js",
       "AssetKind": "All",
@@ -544,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\js\\current-racer.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\js\\site.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -561,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -578,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -595,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -612,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -629,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -646,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -663,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -680,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -697,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -714,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -731,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -748,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -765,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -782,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -799,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -816,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -833,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -850,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -867,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -884,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -901,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -918,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -935,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -952,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -969,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -986,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1003,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1020,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1037,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1054,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1071,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1088,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1105,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1122,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1139,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1156,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1173,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1190,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1207,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1224,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1241,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1258,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1275,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1292,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1309,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1326,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1343,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1360,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1377,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1394,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1411,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1428,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1445,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1462,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1479,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1496,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1513,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Вадим\\Downloads\\Telegram Desktop\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
       "BasePath": "_content/PumpJam.WebApp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

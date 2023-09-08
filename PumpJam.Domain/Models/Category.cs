@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public bool Next { get; set; } = false;
+        public DateTime NextDateTime { get; set; }
         public string Name { get; set; }
         public int Race3 { get; set; }
         public int Race4 { get; set; }
