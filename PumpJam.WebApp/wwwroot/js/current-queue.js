@@ -19,8 +19,8 @@ function Load() {
 
 function FillRating(data) {
     console.log(data[0])
-    $('h1.group').text(`Очередь заезда группы ${data[0]['contest']}`);
-    // $('h1.group').text(`Очередь заезда №${data[0]['raceNum']} группы ${data[0]['contest']}`);
+    // $('h1.group').text(`Очередь заезда группы ${data[0]['contest']}`);
+    $('h1.group').text(`Очередь заезда №${data[0]['raceNum']} группы ${data[0]['contest']}`);
     //$('h1.current').text(`Заезд №${data[0]['raceNum']} группы ${data[0]['contest']}`);
     var qual = data[0]['qual'];
     if (qual) {

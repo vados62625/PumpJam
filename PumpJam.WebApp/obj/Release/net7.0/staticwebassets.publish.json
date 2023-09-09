@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pZZav+XIi15RzS63iUygT5DDrwP5pbsZ3+CtcZcl/5g=",
+  "Hash": "Y3o7OUCiDaVzQOiYCv0A3hes2z+O4R138tFoCm7wBkY=",
   "Source": "PumpJam.WebApp",
   "BasePath": "_content/PumpJam.WebApp",
   "Mode": "Default",
@@ -238,6 +238,23 @@
       "OriginalItemSpec": "wwwroot\\5b32c44a-3ee1-41d8-80df-711132ffe63f.csv"
     },
     {
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\5b40f267-c1d2-4990-90a5-98fef928f14c.csv",
+      "SourceId": "PumpJam.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "BasePath": "_content/PumpJam.WebApp",
+      "RelativePath": "5b40f267-c1d2-4990-90a5-98fef928f14c.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\5b40f267-c1d2-4990-90a5-98fef928f14c.csv"
+    },
+    {
       "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\640f33bc-77e6-4344-a105-312ab8f0b83d.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
@@ -272,6 +289,23 @@
       "OriginalItemSpec": "wwwroot\\66220220-a854-443f-8849-b0873d3ca4a8.csv"
     },
     {
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\786ff76e-2288-49a7-83a7-9736aadee105.csv",
+      "SourceId": "PumpJam.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "BasePath": "_content/PumpJam.WebApp",
+      "RelativePath": "786ff76e-2288-49a7-83a7-9736aadee105.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\786ff76e-2288-49a7-83a7-9736aadee105.csv"
+    },
+    {
       "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\7d8e2752-d6df-4bb2-a266-2d642fbba066.csv",
       "SourceId": "PumpJam.WebApp",
       "SourceType": "Discovered",
@@ -287,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\7d8e2752-d6df-4bb2-a266-2d642fbba066.csv"
+    },
+    {
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\85c6c64b-94a4-48b5-982e-7a42985d02c2.csv",
+      "SourceId": "PumpJam.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "BasePath": "_content/PumpJam.WebApp",
+      "RelativePath": "85c6c64b-94a4-48b5-982e-7a42985d02c2.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\85c6c64b-94a4-48b5-982e-7a42985d02c2.csv"
     },
     {
       "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\8b6d2e8d-d2d0-4f4d-b9f0-f00c2c5042ee.csv",
@@ -389,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\a635bd4f-e24f-4758-97cb-93649f978d8d.csv"
+    },
+    {
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\a6691a6d-a8e9-4c47-9cbe-9bd368e313a4.csv",
+      "SourceId": "PumpJam.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "BasePath": "_content/PumpJam.WebApp",
+      "RelativePath": "a6691a6d-a8e9-4c47-9cbe-9bd368e313a4.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\a6691a6d-a8e9-4c47-9cbe-9bd368e313a4.csv"
     },
     {
       "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\a72073a4-853e-44a4-b9b9-acd2da6ef516.csv",
@@ -1613,6 +1681,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\Winners.csv",
+      "SourceId": "PumpJam.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "BasePath": "_content/PumpJam.WebApp",
+      "RelativePath": "Winners.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Winners.csv"
     }
   ]
 }

@@ -63,7 +63,7 @@ namespace PumpJam.Services
             throw new NotImplementedException();
         }
 
-        public Task<List<RacerDto>?> GetLastRaces()
+        public Task<List<List<RacerDto>?>?> GetLastRaces()
         {
             return _cache.Remember($"{KeyPrefix}:lastRaces", async () => await _racersService.GetLastRaces());                        
         }

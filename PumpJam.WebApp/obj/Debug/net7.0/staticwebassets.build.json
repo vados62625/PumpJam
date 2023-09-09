@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EQQMBFoNP7oHbJP074TRisX9dpBlF/D3PTjhIiNNJLc=",
+  "Hash": "zIg8s4MmQJv9blKk61SfmkpgkHVI86WcQTpqjzTKSPA=",
   "Source": "PumpJam.WebApp",
   "BasePath": "_content/PumpJam.WebApp",
   "Mode": "Default",
@@ -1681,6 +1681,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\Winners.csv",
+      "SourceId": "PumpJam.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vados\\RiderProjects\\PumpJam\\PumpJam.WebApp\\wwwroot\\",
+      "BasePath": "_content/PumpJam.WebApp",
+      "RelativePath": "Winners.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Winners.csv"
     }
   ]
 }

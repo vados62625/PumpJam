@@ -12,7 +12,7 @@ namespace PumpJam.CacheExtensions
             }
 
             result = func();
-            cache.Set(key, result, new MemoryCacheEntryOptions().SetAbsoluteExpiration(TimeSpan.FromSeconds(1)));
+            cache.Set(key, result, new MemoryCacheEntryOptions().SetAbsoluteExpiration(TimeSpan.FromSeconds(4)));
             return result;
         }
     }

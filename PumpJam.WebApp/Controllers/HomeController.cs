@@ -21,7 +21,8 @@ namespace PumpJam.Controllers
         private readonly IWebHostEnvironment _hostingEnvironment;
         private readonly IServiceProvider _serviceProvider;
 
-        public HomeController(ILogger<HomeController> logger, IRacersService racersService, IWebHostEnvironment hostingEnvironment, IServiceProvider serviceProvider)
+        public HomeController(ILogger<HomeController> logger, IRacersService racersService,
+            IWebHostEnvironment hostingEnvironment, IServiceProvider serviceProvider)
         {
             _logger = logger;
             _racersService = racersService;
@@ -29,17 +30,19 @@ namespace PumpJam.Controllers
             _serviceProvider = serviceProvider;
         }
 
-        [HttpGet("")]
+        [HttpGet("2d3e7192-7677-425a-9a6a-6773117eb5e6")]
         public async Task<IActionResult> Index()
         {
             var model = await _racersService.GetCategoryList();
             return View(model);
         }
+
         [HttpGet("currentRace")]
         public IActionResult CurrentRace()
         {
             return View();
         }
+
         [HttpGet("racersQueue")]
         public async Task<IActionResult> RacersQueue()
         {
@@ -49,18 +52,18 @@ namespace PumpJam.Controllers
                 return Json(racerList);
                 // return Json(racerList.Aggregate(text, (str, racer) => str += $"{racer.Bib}\n"));
             }
-            catch
+            catch (Exception ex)
             {
                 return Json(0);
             }
         }
-        
+
         [HttpGet("currentRacersQueueView")]
         public async Task<IActionResult> RacersQueueView()
         {
             return View();
         }
-        
+
         [HttpPost("setNext")]
         public async Task<IActionResult> SetNext([FromQuery] int category)
         {
@@ -71,11 +74,14 @@ namespace PumpJam.Controllers
                 {
                     categoryDB.Next = categoryDB.Id == category;
                     categoryDB.NextDateTime = DateTime.Now;
-                }                
+                }
+
                 await context.SaveChangesAsync();
             }
+
             return RedirectToAction("Index", "Home");
         }
+
         [HttpPost("loadCategories")]
         public async Task<IActionResult> LoadCategories(IFormFile categories)
         {
@@ -90,6 +96,7 @@ namespace PumpJam.Controllers
                         categories.CopyTo(stream);
                         //await ReadAndSaveCategoriesFromCSV(stream);
                     }
+
                     await ReadAndSaveCategoriesFromCSV(filePath);
                     return RedirectToAction("Index", "Home");
                 }
@@ -99,8 +106,10 @@ namespace PumpJam.Controllers
                     return BadRequest();
                 }
             }
+
             return BadRequest();
         }
+
         public async Task<IActionResult> LoadRacers(IFormFile racers)
         {
             if (racers != null)
@@ -114,6 +123,7 @@ namespace PumpJam.Controllers
                         racers.CopyTo(stream);
                         //await ReadAndSaveCategoriesFromCSV(stream);
                     }
+
                     await ReadAndSaveRacersFromCSV(filePath);
                     return RedirectToAction("Index", "Home");
                 }
@@ -123,8 +133,10 @@ namespace PumpJam.Controllers
                     return BadRequest();
                 }
             }
+
             return BadRequest();
         }
+
         private async Task ReadAndSaveCategoriesFromCSV(string filePath)
         {
             using (var reader = new StreamReader(filePath))
@@ -134,7 +146,6 @@ namespace PumpJam.Controllers
                     HasHeaderRecord = true,
                     Delimiter = ";",
                     Encoding = Encoding.UTF8,
-                    
                 };
                 using (var csv = new CsvReader(reader, csvConfig))
                 {
@@ -160,14 +171,16 @@ namespace PumpJam.Controllers
                             category.Race3 = details.R3 ?? 0;
                             category.Race4 = details.R4 ?? 0;
                             category.Race5 = details.R5 ?? 0;
-                            
+
                             categoriesDB.Update(category);
                         }
+
                         await context.SaveChangesAsync();
                     }
                 }
             }
         }
+
         private async Task ReadAndSaveRacersFromCSV(string filePath)
         {
             using (var reader = new StreamReader(filePath))
@@ -177,7 +190,6 @@ namespace PumpJam.Controllers
                     HasHeaderRecord = true,
                     Delimiter = ";",
                     Encoding = Encoding.UTF8,
-                    
                 };
                 using (var csv = new CsvReader(reader, csvConfig))
                 {
@@ -185,12 +197,12 @@ namespace PumpJam.Controllers
                     using (var context = _serviceProvider.GetRequiredService<RacersContext>())
                     {
                         var racersDb = context.Racers;
-                        
+
                         foreach (var rac in racersDb)
                         {
                             racersDb.Remove(rac);
                         }
-                        
+
                         foreach (var details in result)
                         {
                             var racerDb = new RacerDB
@@ -198,9 +210,10 @@ namespace PumpJam.Controllers
                                 Name = $"{details.LastName} {details.FirstName} {details.Surname}",
                                 Bib = details.Number
                             };
-                            
-                            var category = await context.Categories.FirstOrDefaultAsync(c => c.Name == details.Category);
-                            
+
+                            var category =
+                                await context.Categories.FirstOrDefaultAsync(c => c.Name == details.Category);
+
                             if (category == null)
                             {
                                 var categoryDb = await context.Categories.AddAsync(new Category()
@@ -214,14 +227,16 @@ namespace PumpJam.Controllers
                             {
                                 racerDb.Category = category;
                             }
-                            
+
                             racersDb.Add(racerDb);
                         }
+
                         await context.SaveChangesAsync();
                     }
                 }
             }
         }
+
         [HttpGet("current")]
         public IActionResult CurrentRacer()
         {
@@ -241,6 +256,7 @@ namespace PumpJam.Controllers
                 return Json(0);
             }
         }
+
         [HttpGet("currentRacer")]
         public async Task<IActionResult> GetCurrentRacerData()
         {
@@ -254,14 +270,16 @@ namespace PumpJam.Controllers
                 return Json(0);
             }
         }
-        
+
         [HttpGet("lastRaceView/{id}")]
         public async Task<IActionResult> LastRace(int id)
         {
             var race = await _racersService.GetLastRaceByCategory(id);
+            // race = race.Where(c => c.Rank != "-" && !string.IsNullOrEmpty(c.Rank))
+            //     .OrderBy(c => c.Rank).ToList();
             return View(race);
         }
-        
+
         [HttpGet("lastRace/{category}")]
         public async Task<IActionResult> GetLastRaceData(int category)
         {
@@ -285,6 +303,60 @@ namespace PumpJam.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        [HttpGet("winners")]
+        public async Task<IActionResult> GetWinnersCsv()
+        {
+            var lastRaces = await _racersService.GetLastRaces();
+            // var categories = await _racersService.GetCategoryList();
+
+            var filePath = Path.Combine(_hostingEnvironment.WebRootPath, "Winners.csv");
+            await using (var writer = new StreamWriter(filePath))
+            {
+                await using var csv = new CsvWriter(writer, CultureInfo.InvariantCulture);
+                
+                csv.WriteHeader<WinnersCsv>();
+                await csv.NextRecordAsync();
+
+                foreach (var race in lastRaces)
+                {
+                    try
+                    {
+                        // var race = await _racersService.GetLastRaceByCategory(category.Id);
+                        if (race == null) continue;
+
+                        var winners = new List<WinnersCsv>();
+
+                        race.Take(3).ToList().ForEach(c =>
+                        {
+                            winners.Add(
+                                new WinnersCsv
+                                {
+                                    Category = string.Empty,
+                                    FullName = c.Name,
+                                    RacerNumber = c.Bib,
+                                    Rank = int.TryParse(c.Rank, out var rank) ? rank : null,
+                                });
+                        });
+
+                        csv.WriteRecord(new WinnersCsv(){Category = race[0].Contest});
+                        
+                        await csv.NextRecordAsync();
+                        
+                        await csv.WriteRecordsAsync(winners);
+                        
+                        await csv.NextRecordAsync();
+                    }
+                    catch (Exception e)
+                    {
+                        continue;
+                    }
+                }
+            }
+
+            return File(System.IO.File.OpenRead(filePath), "application/octet-stream", Path.GetFileName(filePath));
+            // return BadRequest();
         }
     }
 }

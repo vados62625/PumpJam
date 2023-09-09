@@ -106,17 +106,19 @@ namespace PumpJam.Services
                     {
                         catName = await GetCurrentCategory(racersList);
                     }
+
                     var data = await GetCurrentRaceData(racersList, catName);
-                    if (data != null)
+                    var newData = data;
+                    if (data != null && data.Any())
                     {
                         if (data[0].Contest == _racersQueue.LastCategory)
                             // if (data[0].Contest == _lastCategory)
                         {
-                            data = CheckQueue(data);
+                            newData = CheckQueue(data);
                         }
 
                         // if (_racersQueue.LastQueue == null)
-                        if (_racersQueue.LastQueue == null ||
+                        if (_racersQueue.LastQueue == null || !_racersQueue.LastQueue.Any() ||
                             data.Select(c => c.LAST ?? 0).Except(_racersQueue.LastQueue).Any())
                         {
                             _racersQueue.LastQueue = data.Select(c => c.LAST ?? 0).ToList();
@@ -125,7 +127,7 @@ namespace PumpJam.Services
                         _racersQueue.LastCategory = data[0].Contest;
                     }
 
-                    return data;
+                    return newData;
                 }
 
                 return null;
@@ -154,9 +156,30 @@ namespace PumpJam.Services
             throw new NotImplementedException();
         }
 
-        public Task<List<RacerDto>?> GetLastRaces()
+        public async Task<List<List<RacerDto>?>?> GetLastRaces()
         {
-            throw new NotImplementedException();
+            var racersData = await GetRacersDataAsync();
+            if (racersData != null)
+            {
+                var racersList = JsonConvert.DeserializeObject<List<Racer>>(racersData);
+                if (racersList != null)
+                {
+                    var categories = await GetCategoryList();
+                    var lastRaces = new List<List<RacerDto>>();
+                    foreach (var category in categories)
+                    {
+                        var catName = _context.Categories.FirstOrDefault(c => c.Id == category.Id);
+                        var data = await GetLastRaceByCategoryData(racersList, catName);
+                        lastRaces.Add(data.Where(c => c.Rank != null && !string.IsNullOrEmpty(c.Rank)).ToList());
+                    }
+
+                    return lastRaces;
+                }
+
+                return null;
+            }
+
+            return null;
         }
 
         private async Task<string?> GetRacersDataAsync()
@@ -337,33 +360,35 @@ namespace PumpJam.Services
             {
                 var raceNumber = 1;
                 var currentRacers = races[currentRaceContest.Name];
+
                 int racersCount = currentRacers.Count;
                 if (currentRacers.FirstOrDefault(c => !string.IsNullOrEmpty(c.H5t) && c.H5t != "-") != null)
                 {
                     raceNumber = 5;
-                    var emptyRank = currentRacers.Where(c => c.Race5r == "-" || string.IsNullOrEmpty(c.Race5r))
-                        .ToList();
-                    currentRacers = currentRacers.Where(c => int.TryParse(c.Race5r, out var value))
-                        .OrderBy(c => int.Parse(c.Race5r)).ToList();
-                    currentRacers.AddRange(emptyRank);
+                    // currentRacers = currentRacers.Where(c => c.Race5r == "-" || string.IsNullOrEmpty(c.Race5r))
+                    //     .ToList();
+                    // currentRacers = currentRacers.Where(c => int.TryParse(c.Race5r, out var value))
+                    //     .OrderBy(c => int.Parse(c.Race5r)).ToList();
+                    // currentRacers.AddRange(emptyRank);
                 }
                 else if (currentRacers.FirstOrDefault(c => !string.IsNullOrEmpty(c.H4t) && c.H4t != "-") != null)
                 {
                     raceNumber = 4;
-                    var emptyRank = currentRacers.Where(c => c.Race4r == "-" || string.IsNullOrEmpty(c.Race4r))
-                        .ToList();
-                    currentRacers = currentRacers.Where(c => int.TryParse(c.Race4r, out var value))
-                        .OrderBy(c => int.Parse(c.Race4r)).ToList();
-                    currentRacers.AddRange(emptyRank);
+                   // currentRacers = currentRacers.Where(c => c.Race4r == "-" || string.IsNullOrEmpty(c.Race4r))
+                        // .ToList();
+                    // currentRacers = currentRacers.Where(c => int.TryParse(c.Race4r, out var value))
+                    //     .OrderBy(c => int.Parse(c.Race4r)).ToList();
+                    // currentRacers.AddRange(emptyRank);
                 }
                 else if (currentRacers.FirstOrDefault(c => !string.IsNullOrEmpty(c.H3t) && c.H3t != "-") != null)
                 {
                     raceNumber = 3;
-                    var emptyRank = currentRacers.Where(c => c.Race3r == "-" || string.IsNullOrEmpty(c.Race3r))
-                        .ToList();
-                    currentRacers = currentRacers.Where(c => int.TryParse(c.Race3r, out var value))
-                        .OrderBy(c => int.Parse(c.Race3r)).ToList();
-                    currentRacers.AddRange(emptyRank);
+
+                    // currentRacers = currentRacers.Where(c => c.Race3r == "-" || string.IsNullOrEmpty(c.Race3r))
+                        // .ToList();
+                    // currentRacers = currentRacers.Where(c => int.TryParse(c.Race3r, out var value))
+                    //     .OrderBy(c => int.Parse(c.Race3r)).ToList();
+                    // currentRacers.AddRange(emptyRank);
                 }
                 else if (currentRacers.FirstOrDefault(c => !string.IsNullOrEmpty(c.H2t) && c.H2t != "-") != null)
                     raceNumber = 2;
@@ -377,26 +402,28 @@ namespace PumpJam.Services
                 if (raceNumber == 4)
                 {
                     racersCount = currentRaceContest?.Race4 ?? currentRacers.Count;
-                    currentRacers = currentRacers.Where(c => !double.TryParse(c.H4t, out var value)).ToList();
+                    currentRacers = currentRacers.Where(c => !double.TryParse(c.H4t, out var value) && string.IsNullOrEmpty(c.Race4r)).ToList();
                 }
 
                 if (raceNumber == 3)
                 {
                     racersCount = currentRaceContest?.Race3 ?? currentRacers.Count;
-                    currentRacers = currentRacers.Where(c => !double.TryParse(c.H3t, out var value)).ToList();
+                    currentRacers = currentRacers.Where(c => !double.TryParse(c.H3t, out var value) && string.IsNullOrEmpty(c.Race3r)).ToList();
+
                 }
 
                 if (racersCount == 0) racersCount = currentRacers.Count;
+
                 if (raceNumber < 3)
                 {
                     if (raceNumber == 2)
                     {
-                        currentRacers = currentRacers.Where(c => !double.TryParse(c.H2t, out var value)).ToList();
+                        currentRacers = currentRacers.Where(c => !double.TryParse(c.H2t, out var value) && string.IsNullOrEmpty(c.Race2r)).ToList();
                     }
 
                     if (raceNumber == 1)
                     {
-                        currentRacers = currentRacers.Where(c => !double.TryParse(c.H1t, out var value)).ToList();
+                        currentRacers = currentRacers.Where(c => !double.TryParse(c.H1t, out var value) && string.IsNullOrEmpty(c.Race1r)).ToList();
                     }
 
                     var res = currentRacers?.Select(c => new RacerDto
@@ -419,7 +446,7 @@ namespace PumpJam.Services
                         Rank = c.RankQual ?? "--",
                         RaceT = c.Race1t ?? "--",
                         Race2T = c.Race2t ?? "--",
-                    });
+                    }).ToList();
 
                     // res = res?.OrderBy(c => c.Id).Take(racersCount)
                     //     .ToList();
@@ -430,9 +457,11 @@ namespace PumpJam.Services
                         if (rcr != null)
                             r.Id = rcr.Id;
                     }
-
+                    _logger.LogError("RES 1 :::::::::: " + res.Any().ToString());
                     return res.OrderBy(c => c.Id).Take(racersCount)
                         .ToList();
+                    
+
                 }
 
 
@@ -458,7 +487,7 @@ namespace PumpJam.Services
                     RaceT = c?.GetType()?.GetProperty($"Race{raceNumber}t")?.GetValue(c, null)?.ToString() ??
                             "--",
                     //}).Where(c => c.Ht != "--" && !string.IsNullOrEmpty(c.Ht))
-                });
+                }).ToList();
 
                 foreach (var r in result)
                 {
@@ -545,29 +574,32 @@ namespace PumpJam.Services
                 }
 
                 var res = currentRacers?.Select(c => new RacerDto
-                {
-                    RaceNum = raceNumber,
-                    Bib = c.Bib,
-                    Contest = c.Contest,
-                    Qual = true,
-                    BEST = c.BEST,
-                    LAST = c.LAST,
-                    Hb = c.H1b ?? string.Empty,
-                    HbClass = (c.H1b?.Contains('-') ?? true) ? "text-success" : "text-danger",
-                    Hr = c.H1r ?? "--",
-                    Ht = c.H1t ?? "--",
-                    H2b = c.H2b ?? string.Empty,
-                    H2bClass = (c.H2b?.Contains('-') ?? true) ? "text-success" : "text-danger",
-                    H2t = c.H2t ?? "--",
-                    H2r = c.H2r ?? "--",
-                    Name = c.Name,
-                    Rank = c.RankQual ?? "--",
-                    RaceT = c.Race1t ?? "--",
-                    Race2T = c.Race2t ?? "--",
-                }).OrderBy(c => c.Rank).ToList();
+                    {
+                        RaceNum = raceNumber,
+                        Bib = c.Bib,
+                        Contest = c.Contest,
+                        Qual = true,
+                        BEST = c.BEST,
+                        LAST = c.LAST,
+                        Hb = c.H1b ?? string.Empty,
+                        HbClass = (c.H1b?.Contains('-') ?? true) ? "text-success" : "text-danger",
+                        Hr = c.H1r ?? "--",
+                        Ht = c.H1t ?? "--",
+                        H2b = c.H2b ?? string.Empty,
+                        H2bClass = (c.H2b?.Contains('-') ?? true) ? "text-success" : "text-danger",
+                        H2t = c.H2t ?? "--",
+                        H2r = c.H2r ?? "--",
+                        Name = c.Name,
+                        Rank = c.RankQual ?? "--",
+                        RaceT = c.Race1t ?? "--",
+                        Race2T = c.Race2t ?? "--",
+                    }).Where(c => int.TryParse(c.Rank, out var rank))
+                    .OrderBy(c => int.Parse(c.Rank))
+                    .Take(racersCount)
+                    .ToList();
 
 
-                res.TakeLast(kickedCount).ToList().ForEach(c => c.Kicked = true);
+                // res.TakeLast(kickedCount).ToList().ForEach(c => c.Kicked = true);
 
                 foreach (var r in res)
                 {
@@ -602,11 +634,12 @@ namespace PumpJam.Services
                             "--",
                     //}).Where(c => c.Ht != "--" && !string.IsNullOrEmpty(c.Ht))
                     // }).OrderBy(c => c.Id)
-                }).OrderBy(c => c.Rank)
+                }).Where(c => int.TryParse(c.Rank, out var rank))
+                .OrderBy(c => int.Parse(c.Rank))
                 .Take(racersCount)
                 .ToList();
 
-            result.TakeLast(kickedCount).ToList().ForEach(c => c.Kicked = true);
+            // result.TakeLast(kickedCount).ToList().ForEach(c => c.Kicked = true);
 
             return result;
         }
@@ -693,7 +726,7 @@ namespace PumpJam.Services
 
         private List<RacerDto> CheckQueue(List<RacerDto> racers)
         {
-            if (_racersQueue.LastQueue == null) return racers;
+            if (_racersQueue.LastQueue == null || !_racersQueue.LastQueue.Any()) return racers;
             // for (var i = 1; i < racers.Count; i++)
             // {
             //     if (racers[i].LAST == _racersQueue.LastQueue[i]) 
@@ -705,7 +738,7 @@ namespace PumpJam.Services
             var current = racers.Select(c => c.LAST ?? 0);
             var times = _racersQueue.LastQueue.Intersect(current).ToList();
 
-            return racers.Where(c => times.Contains(c.LAST ?? 0)).ToList();
+            return racers.Where(c => times.Contains(c.LAST ?? 0)).OrderBy(c => c.Id).ToList();
         }
 
         private async Task<Category?> GetCurrentCategory(List<Racer> racers)
