@@ -30,7 +30,7 @@ builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 void ConfigureUserContextConnection(DbContextOptionsBuilder options)
 {
     options.UseLazyLoadingProxies()
-        .UseSqlServer(builder.Configuration.GetConnectionString("UserContext")).ConfigureWarnings(w => w.Ignore(CoreEventId.LazyLoadOnDisposedContextWarning));
+        .UseSqlServer(builder.Configuration.GetConnectionString("DevContext")).ConfigureWarnings(w => w.Ignore(CoreEventId.LazyLoadOnDisposedContextWarning));
 }
 
 

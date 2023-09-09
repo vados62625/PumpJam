@@ -102,6 +102,10 @@ namespace PumpJam.Services
                 if (racersList != null)
                 {
                     var catName = _context.Categories.FirstOrDefault(c => c.Next);
+                    if (catName == null)
+                    {
+                        catName = await GetCurrentCategory(racersList);
+                    }
                     var data = await GetCurrentRaceData(racersList, catName);
                     if (data != null)
                     {
@@ -178,7 +182,6 @@ namespace PumpJam.Services
         private List<RacerDto>? GetCurrentRaceData(List<Racer> racers)
         {
             var races = racers.GroupBy(c => c.Contest).ToDictionary(g => g.Key, g => g.ToList());
-            ;
 
             var currentRacer = racers.MaxBy(c => c.LAST);
             var currentRacerLastSeconds = currentRacer?.LAST ?? 0;
@@ -326,7 +329,10 @@ namespace PumpJam.Services
 
         private async Task<List<RacerDto>?> GetCurrentRaceData(List<Racer> racers, Category currentRaceContest)
         {
-            var races = racers.GroupBy(c => c.Contest).ToDictionary(g => g.Key, g => g.ToList());
+            var races = racers.Where(c => !string.IsNullOrEmpty(c.Contest))
+                .GroupBy(c => c.Contest)
+                .ToDictionary(g => g.Key, g => g.ToList());
+            
             if (currentRaceContest != null)
             {
                 var raceNumber = 1;
@@ -700,6 +706,18 @@ namespace PumpJam.Services
             var times = _racersQueue.LastQueue.Intersect(current).ToList();
 
             return racers.Where(c => times.Contains(c.LAST ?? 0)).ToList();
+        }
+
+        private async Task<Category?> GetCurrentCategory(List<Racer> racers)
+        {
+            var lastRacer = racers.MaxBy(c => c.LAST);
+            var catName = lastRacer.Contest;
+            if (catName != null)
+            {
+                return await _context.Categories.FirstOrDefaultAsync(c => c.Name == catName);
+            }
+
+            return default;
         }
     }
 }
