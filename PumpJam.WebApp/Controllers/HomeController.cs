@@ -5,9 +5,11 @@ using PumpJam.DB;
 using System.Diagnostics;
 using System.Globalization;
 using System.Text;
+using System.Web;
 using Domain.Models;
 using Domain.Models.CSV;
 using Domain.ViewModels;
+using Microsoft.EntityFrameworkCore;
 using PumpJam.Application.Services;
 
 namespace PumpJam.Controllers
@@ -99,6 +101,30 @@ namespace PumpJam.Controllers
             }
             return BadRequest();
         }
+        public async Task<IActionResult> LoadRacers(IFormFile racers)
+        {
+            if (racers != null)
+            {
+                string fileName = $"{Guid.NewGuid()}{Path.GetExtension(racers.FileName)}";
+                try
+                {
+                    var filePath = Path.Combine(_hostingEnvironment.WebRootPath, fileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        racers.CopyTo(stream);
+                        //await ReadAndSaveCategoriesFromCSV(stream);
+                    }
+                    await ReadAndSaveRacersFromCSV(filePath);
+                    return RedirectToAction("Index", "Home");
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"Ошибка сохранения файла\n{ex}");
+                    return BadRequest();
+                }
+            }
+            return BadRequest();
+        }
         private async Task ReadAndSaveCategoriesFromCSV(string filePath)
         {
             using (var reader = new StreamReader(filePath))
@@ -116,19 +142,80 @@ namespace PumpJam.Controllers
                     using (var context = _serviceProvider.GetRequiredService<RacersContext>())
                     {
                         var categoriesDB = context.Categories;
+                        // foreach (var cat in categoriesDB)
+                        // {
+                        //     categoriesDB.Remove(cat);
+                        // }
                         foreach (var details in result)
                         {
-                            foreach (var cat in categoriesDB)
+                            var category = categoriesDB.FirstOrDefault(c => c.Name == details.Category);
+                            if (category == null)
                             {
-                                categoriesDB.Remove(cat);
+                                category = new Category
+                                {
+                                    Name = details.Category,
+                                };
                             }
-                            categoriesDB.Add(new Category
+
+                            category.Race3 = details.R3 ?? 0;
+                            category.Race4 = details.R4 ?? 0;
+                            category.Race5 = details.R5 ?? 0;
+                            
+                            categoriesDB.Update(category);
+                        }
+                        await context.SaveChangesAsync();
+                    }
+                }
+            }
+        }
+        private async Task ReadAndSaveRacersFromCSV(string filePath)
+        {
+            using (var reader = new StreamReader(filePath))
+            {
+                var csvConfig = new CsvConfiguration(CultureInfo.InvariantCulture)
+                {
+                    HasHeaderRecord = true,
+                    Delimiter = ";",
+                    Encoding = Encoding.UTF8,
+                    
+                };
+                using (var csv = new CsvReader(reader, csvConfig))
+                {
+                    var result = csv.GetRecords<RacerCSV>();
+                    using (var context = _serviceProvider.GetRequiredService<RacersContext>())
+                    {
+                        var racersDb = context.Racers;
+                        
+                        foreach (var rac in racersDb)
+                        {
+                            racersDb.Remove(rac);
+                        }
+                        
+                        foreach (var details in result)
+                        {
+                            var racerDb = new RacerDB
                             {
-                                Name = details.Category ?? "NoName",
-                                Race3 = details.R3 ?? 0,
-                                Race4 = details.R4 ?? 0,
-                                Race5 = details.R5 ?? 0,
-                            });
+                                Name = $"{details.LastName} {details.FirstName} {details.Surname}",
+                                Bib = details.Number
+                            };
+                            
+                            var category = await context.Categories.FirstOrDefaultAsync(c => c.Name == details.Category);
+                            
+                            if (category == null)
+                            {
+                                var categoryDb = await context.Categories.AddAsync(new Category()
+                                {
+                                    Name = details.Category
+                                });
+
+                                racerDb.Category = categoryDb.Entity;
+                            }
+                            else
+                            {
+                                racerDb.Category = category;
+                            }
+                            
+                            racersDb.Add(racerDb);
                         }
                         await context.SaveChangesAsync();
                     }
@@ -161,6 +248,27 @@ namespace PumpJam.Controllers
             {
                 var racer = await _racersService.GetCurrentRacerData();
                 return Json(new List<RacerDto> { racer });
+            }
+            catch
+            {
+                return Json(0);
+            }
+        }
+        
+        [HttpGet("lastRaceView/{id}")]
+        public async Task<IActionResult> LastRace(int id)
+        {
+            var race = await _racersService.GetLastRaceByCategory(id);
+            return View(race);
+        }
+        
+        [HttpGet("lastRace/{category}")]
+        public async Task<IActionResult> GetLastRaceData(int category)
+        {
+            try
+            {
+                var racers = await _racersService.GetLastRaceByCategory(category);
+                return Json(racers);
             }
             catch
             {

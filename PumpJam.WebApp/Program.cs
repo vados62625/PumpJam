@@ -6,6 +6,7 @@ using PumpJam.Application.Services;
 using PumpJam.DB;
 using PumpJam.Repository;
 using PumpJam.Services;
+using PumpJam.Services.Static;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,8 @@ builder.Services.AddHttpClient<IRacersService, RacersService>()
 builder.Services.Decorate<IRacersService, CachedRacersService>();
 
 builder.Services.AddScoped<RacersRepository>();
+
+builder.Services.AddSingleton<RacersQueue>();
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddMemoryCache();

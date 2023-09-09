@@ -5,31 +5,49 @@
 
 <div class="text-center">
     <h1 class="display-5 mb-3">Главная</h1>
-    <form asp-action="LoadCategories" asp-controller="Home" enctype="multipart/form-data">
+
+    <nav class="my-3 nav nav-pills nav-justified">
+        <a class="nav-item btn btn-outline-info" asp-action="CurrentRace" asp-controller="Home">Текущий заезд</a><br/>
+        <a class="mx-3 nav-item btn btn-outline-info" asp-action="CurrentRacer" asp-controller="Home">Текущий участник</a>
+        <a class="nav-item btn btn-outline-info" asp-action="RacersQueueView" asp-controller="Home">Очередь</a>
+    </nav>
+
+    <form class="mb-3" asp-action="LoadCategories" asp-controller="Home" enctype="multipart/form-data">
         <div class="input-group">
-            <input class="form-control" type="file" accept=".csv" name="categories" id="categories" />
-            <input type="submit" value="Загрузить" class="btn btn-outline-dark" />
+            <span class="input-group-text">Загрузите группы участников</span>
+            <input class="form-control" type="file" accept=".csv" name="categories" id="categories"/>
+            <input type="submit" value="Загрузить" class="btn btn-outline-dark"/>
         </div>
     </form>
-    <a asp-action="CurrentRace" asp-controller="Home">Текущий заезд</a><br />
-    <a asp-action="CurrentRacer" asp-controller="Home">Текущий участник</a>
-    <a asp-action="RacersQueueView" asp-controller="Home">Очередь</a>
+
+    <form class="mb-3" asp-action="LoadRacers" asp-controller="Home" enctype="multipart/form-data">
+        <div class="input-group">
+            <span class="input-group-text">Загрузите участников</span>
+            <input class="form-control" type="file" accept=".csv" name="racers" id="racers"/>
+            <input type="submit" value="Загрузить" class="btn btn-outline-dark"/>
+        </div>
+    </form>
+
 </div>
 <div class="mb-3">Группы:</div>
 <div>
     @foreach (var category in Model)
     {
-        <div class="mb-2 row">@category.Name 
-            @if (!category.Next)
-            {
-                <form asp-controller="Home" asp-action="SetNext" asp-route-category="@category.Id">
-                    <button id="setNext" type="submit" class="ms-2 btn btn-outline-success">Идут следующими</button>
-                </form>
-            }
-            else
-            {
-                <button class="btn btn-warning" disabled>Следующие</button>
-            }
+        <div class="mb-2 row border rounded p-3">
+            <p class="py-2">@category.Name</p>
+            <div class="d-flex">
+                @if (!category.Next)
+                {
+                    <form asp-controller="Home" asp-action="SetNext" asp-route-category="@category.Id">
+                        <button id="setNext" type="submit" class="ms-2 btn btn-outline-success">Поставить следующими</button>
+                    </form>
+                }
+                else
+                {
+                    <button class="btn btn-warning" disabled>Следующие</button>
+                }
+                <a class="ms-2 btn btn-outline-info" asp-controller="Home" asp-action="LastRace" asp-route-id="@category.Id">Последний заезд</a>
+            </div>
         </div>
     }
 </div>

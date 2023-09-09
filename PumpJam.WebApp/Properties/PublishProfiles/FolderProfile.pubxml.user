@@ -3,4 +3,9 @@
 https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\it-7\Desktop\maxtypub</_PublishTargetUrl>
+    <History>False|2023-09-09T04:44:39.7707430Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
 </Project>

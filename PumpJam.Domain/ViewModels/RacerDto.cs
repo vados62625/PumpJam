@@ -61,5 +61,7 @@ namespace Domain.ViewModels
 
         [JsonProperty("LAST")]
         public double? LAST { get; set; }
+
+        public bool Kicked { get; set; } = false;
     }
 }

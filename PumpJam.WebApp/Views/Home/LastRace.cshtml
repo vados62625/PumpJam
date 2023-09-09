@@ -1,0 +1,39 @@
+﻿@using System.Web
+@using System.Text
+@model List<Domain.ViewModels.RacerDto>
+@{
+    ViewData["Title"] = "Рейтинг";
+}
+@if (Model.Any())
+{
+    <div class="text-center">
+        <h1 class="display-5 mb-3 group">Последний заезд группы @Model[0].Contest</h1>
+        <table class="table" style="font-size: 10px">
+            <thead>
+            <tr>
+                <th>Место</th>
+                <th>Номер участника</th>
+                <th>Имя участника</th>
+                <th>Лучш. время круга</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var racer in Model)
+            {
+                <tr>
+                    <td>@racer.Rank</td>
+                    <td>@racer.Bib</td>
+                    <td>@racer.Name</td>
+                    <td>@racer.BEST</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning" role="alert">
+        Нет данных
+    </div>
+}
