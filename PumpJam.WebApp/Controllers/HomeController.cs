@@ -314,7 +314,13 @@ namespace PumpJam.Controllers
             var filePath = Path.Combine(_hostingEnvironment.WebRootPath, "Winners.csv");
             await using (var writer = new StreamWriter(filePath))
             {
-                await using var csv = new CsvWriter(writer, CultureInfo.InvariantCulture);
+                var csvConfig = new CsvConfiguration(CultureInfo.InvariantCulture)
+                {
+                    HasHeaderRecord = true,
+                    Delimiter = ";",
+                    Encoding = Encoding.UTF8,
+                };
+                await using var csv = new CsvWriter(writer, csvConfig);
                 
                 csv.WriteHeader<WinnersCsv>();
                 await csv.NextRecordAsync();
