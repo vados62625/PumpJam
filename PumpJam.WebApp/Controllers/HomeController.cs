@@ -343,6 +343,7 @@ namespace PumpJam.Controllers
                                     FullName = c.Name,
                                     RacerNumber = c.Bib,
                                     Rank = int.TryParse(c.Rank, out var rank) ? rank : null,
+                                    BestTime = c.BEST,
                                 });
                         });
 

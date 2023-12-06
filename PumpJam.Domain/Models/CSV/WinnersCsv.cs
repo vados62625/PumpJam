@@ -6,4 +6,5 @@ public class WinnersCsv
     public string FullName { get; set; }
     public int? RacerNumber { get; set; }
     public int? Rank { get; set; }
+    public double? BestTime { get; set; }
 }

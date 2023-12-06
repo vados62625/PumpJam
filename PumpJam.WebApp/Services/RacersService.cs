@@ -17,7 +17,7 @@ namespace PumpJam.Services
         private readonly IServiceProvider _serviceProvider;
         private readonly RacersRepository _racersRepository;
         private readonly RacersContext _context;
-        private const string Url = "https://api.raceresult.com/252165/S6MWZHENY2BJJQMOMELRGZ18T79AEZVU";
+        private const string Url = "https://api.raceresult.com/260928/S6MWZHENY2BJJQMOMELRGZ18T79AEZVU";
         private static List<double> _lastQueue;
         private static string _lastCategory;
         private readonly RacersQueue _racersQueue;
